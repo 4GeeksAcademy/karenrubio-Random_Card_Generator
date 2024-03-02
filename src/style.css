@@ -1,1 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  height: 500px;
+  margin: 15px auto;
+  position: relative;
+}
+
+.top {
+  position: absolute;
+  top: 15px;
+  left: 21px;
+  font-size: 67px;
+}
+
+.middle {
+  bottom: -15px;
+  position: relative;
+  left: 96px;
+  font-size: 274px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 15px;
+  right: 21px;
+  font-size: 67px;
+  rotate: 180deg;
+}
